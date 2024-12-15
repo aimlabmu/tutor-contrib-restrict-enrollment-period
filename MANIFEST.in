@@ -1,0 +1,2 @@
+recursive-include tutorrestrict_enrollment_period/patches *
+recursive-include tutorrestrict_enrollment_period/templates *

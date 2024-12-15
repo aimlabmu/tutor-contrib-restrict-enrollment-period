@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+{% load i18n %}
+
+{% block title %}
+{% trans "Access Restricted" %} | {{ course_name }}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="alert alert-warning" role="alert">
+        <h3>{% trans "Course Access Restricted" %}</h3>
+        <p>{{ message }}</p>
+        <p>{% trans "If you believe this is an error, please contact support." %}</p>
+    </div>
+</div>
+{% endblock %}
